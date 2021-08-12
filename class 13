@@ -1,0 +1,23 @@
+var platformGroups;
+  platformGroups = new Group();
+  platformGroups.add(platforms);
+  jack.collide(platformGroups);
+      platform.destroy();
+*******************************
+
+sound1 = loadSOund("")
+
+sound1.play()
+
+player.lifetime = 100
+
+***********************
+
+optional part 
+adding background
+
+bg = loadImage("");
+bg.velocityY = 4;
+if(bg.y > 400 ){
+    bg.y = bg.width /2
+}
